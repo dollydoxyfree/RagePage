@@ -49,6 +49,7 @@ Road-Rage:
 - Animations for UX
 - Advanced styling
 - About section with mindfulness resources
+- Additional 'work' section
 
 ## Project Schedule
 
