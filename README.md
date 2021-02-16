@@ -42,7 +42,7 @@ Sometimes things don't go your way, or someone (or something) REALLY gets under 
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Feb 16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Feb 16| Project Approval | Incomplete
 |Feb 16| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Feb 17| Pseudocode / actual code | Incomplete
