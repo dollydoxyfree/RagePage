@@ -66,7 +66,7 @@ Sometimes things don't go your way, or someone (or something) REALLY gets under 
 | Adding Nav | M | 2hrs | 0 | 0 |
 | Adding Form | H | 9hrs| 0 | 0 |
 | Responsive UX | M | 8hrs | 0 | 0 |
-| Advanced Style | L | 10hrs | 0hrs | 0 |
+| Advanced Style | L | 10hrs | 0 | 0 |
 | Total | H | 44hrs| 0hrs | 0hrs |
 
 ## SWOT Analysis
