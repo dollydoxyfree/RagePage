@@ -18,8 +18,19 @@ Sometimes things don't go your way, or someone (or something) REALLY gets under 
 <img width="751" alt="Screen Shot 2021-02-16 at 5 17 32 AM" src="https://user-images.githubusercontent.com/75773700/108070250-27d9a380-7019-11eb-918b-1e222b2e8139.png">
 
 ## API and Data Sample
+Relationships:
 
 <img width="601" alt="Screen Shot 2021-02-16 at 5 26 23 AM" src="https://user-images.githubusercontent.com/75773700/108070399-55265180-7019-11eb-9119-750d357e8970.png">
+
+Hospitality:
+
+<img width="511" alt="Screen Shot 2021-02-16 at 8 16 20 AM" src="https://user-images.githubusercontent.com/75773700/108090281-4c407a80-702f-11eb-8d4b-8861874c6f78.png">
+
+Road-Rage:
+
+<img width="508" alt="Screen Shot 2021-02-16 at 8 18 45 AM" src="https://user-images.githubusercontent.com/75773700/108090576-9e819b80-702f-11eb-9803-9896b219e103.png">
+
+
 
 ### MVP/PostMVP
 #### MVP 
