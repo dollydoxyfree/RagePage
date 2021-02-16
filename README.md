@@ -9,7 +9,8 @@ Sometimes things don't go your way, or someone (or something) REALLY gets under 
 
 ## Wireframes
 
-<img width="1153" alt="Screen Shot 2021-02-16 at 4 59 38 AM" src="https://user-images.githubusercontent.com/75773700/108070133-ff51a980-7018-11eb-8976-05b2ac65dfb5.png">
+<img width="1131" alt="Screen Shot 2021-02-16 at 8 28 14 AM" src="https://user-images.githubusercontent.com/75773700/108091898-fff63a00-7030-11eb-9de2-dafcbd08d969.png">
+
 
 <img width="778" alt="Screen Shot 2021-02-16 at 5 05 39 AM" src="https://user-images.githubusercontent.com/75773700/108070091-f5c84180-7018-11eb-8848-afa3738363f1.png">
 
