@@ -26,15 +26,16 @@ function Relationships(props) {
 
   return (
     <div>
+          <Route path="/relationships/new">
+    <div className='form1'>
+          <Form1 relationships={relationships} setToggleFetch={setToggleFetch} />
+          </div>
+</Route>
+
 
 <Link to='/relationships/new'><button>Create Post</button></Link>
      
-    {/* <Route path="/realtionships/new">
-        <div className='form1'>
-      <Form1 relationships={relationships} setToggleFetch={setToggleFetch}/>
-    </div>
-  </Route> */}
-
+  
     <Link to="/relationships">
       <div>
         <h3>{title}</h3>

@@ -50,12 +50,6 @@ function Form1(props) {
   };
 
   return (
-    <div>
-    <Route path="/relationships/new">
-    <div className='form1'>
-          <Form1 relationships={relationships} setToggleFetch={setToggleFetch} />
-          </div>
-</Route>
 
 
     <Route path="/relationships/new">
@@ -93,7 +87,6 @@ function Form1(props) {
         <button type="submit">RAGE</button>
         </form>
       </Route>
-      </div>
   );
 }
 
