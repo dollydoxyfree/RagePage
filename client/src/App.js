@@ -58,8 +58,10 @@ function App() {
       </div>
 
       <Route path="/relationships">
-        Ï<Link to='/relationships/new'><button id='relButt'>Create Post</button></Link>
+        <div className='buttons-container'>
+      <Link to='/relationships/new'><button id='relButt'>Create Post</button></Link>
         <Link to='/relationships'><button>cancel</button></Link>
+        </div>
         <Route path="/relationships/new">
         <div className="form1">
           <Form1
