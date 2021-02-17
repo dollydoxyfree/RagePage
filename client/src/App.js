@@ -58,6 +58,16 @@ function App() {
       </div>
 
       <Route path="/relationships">
+        Ï<Link to='/relationships/new'><button id='relButt'>Create Post</button></Link>
+        <Link to='/relationships'><button>cancel</button></Link>
+        <Route path="/relationships/new">
+        <div className="form1">
+          <Form1
+            relationships={relationships}
+            setToggleFetch={setToggleFetch}
+          />
+        </div>
+      </Route>
         <div className="relationships-container">
           {relationships.map((relationships) => (
             <Relationships relationships={relationships} />
