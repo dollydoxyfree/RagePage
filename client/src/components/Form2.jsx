@@ -67,14 +67,14 @@ function Form2(props) {
         <br />
         <br />
         <label>I WISH I could of </label>
-        <input
+        <textarea
           value={dreamReact}
           onChange={(e) => setDreamReact(e.target.value)}
         />
         <br />
         <br />
         <label>Reality</label>
-        <input value={reality} onChange={(e) => setReality(e.target.value)} />
+        <textarea value={reality} onChange={(e) => setReality(e.target.value)} />
         <br />
         <br />
         <label>name or alias</label>
