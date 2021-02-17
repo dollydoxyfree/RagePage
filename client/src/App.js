@@ -64,9 +64,12 @@ function App() {
       <div>
         <Nav />
       </div>
+      
+      <Route path='/' exact>
       <div id='gearsGiph'><br/><br/>
         <Home />
       </div>
+      </Route>
 
       <Route path="/relationships">
         <div className='buttons-container'>
