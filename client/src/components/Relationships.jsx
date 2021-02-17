@@ -1,8 +1,8 @@
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { baseURL1, config } from "../services/index.js";
-// import Form1 from '../components/Form1'
+import Form1 from '../components/Form1'
 
 function Relationships(props) {
   const [relationships, setRelationships] = useState([]);
@@ -25,6 +25,15 @@ function Relationships(props) {
   // }, [toggleFetch]);
 
   return (
+    <div>
+
+<Link to='/relationships/new'><button>Create Post</button></Link>
+     
+    {/* <Route path="/realtionships/new">
+        <div className='form1'>
+      <Form1 relationships={relationships} setToggleFetch={setToggleFetch}/>
+    </div>
+  </Route> */}
 
     <Link to="/relationships">
       <div>
@@ -34,7 +43,8 @@ function Relationships(props) {
         <h6>What Actually Happened: {reality}</h6>
         <h6>posted by {anonAuthor}</h6>
       </div>
-    </Link>
+      </Link>
+      </div>
   );
 }
 
