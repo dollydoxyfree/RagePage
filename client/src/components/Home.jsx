@@ -1,7 +1,11 @@
-// function Home() {
-//   return (
-//   <iframe src="https://giphy.com/embed/cugOguK3T7rpK" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
-//   )
-// }
+function Home() {
+  return (
 
-// return default Home;
+
+    <div>
+    <iframe src="https://giphy.com/embed/RjxGkhKMl4ZWTcrI4b" width="100%" height="100%"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      </div>
+  )
+}
+
+export default Home;

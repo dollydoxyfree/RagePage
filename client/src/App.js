@@ -1,4 +1,5 @@
 import Nav from "./components/Nav";
+import Home from './components/Home'
 import Hospitality from "./components/Hospitality";
 import { Route, Link } from "react-router-dom";
 import "./App.css";
@@ -50,6 +51,10 @@ function App() {
 
 
   return (
+
+    
+
+
     <div>
       <header className='title-container'>
         <h1 id="title1">WGMG</h1>
@@ -58,6 +63,9 @@ function App() {
 
       <div>
         <Nav />
+      </div>
+      <div id='gearsGiph'><br/><br/>
+        <Home />
       </div>
 
       <Route path="/relationships">

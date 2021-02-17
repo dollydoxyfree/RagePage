@@ -33,7 +33,7 @@ function Relationships(props) {
 
 
       <Link to="/relationships">
-        <div>
+        <div className='input-container'>
           <h3>{title}</h3>
           <h6>The Scene: {situation}</h6>
           <h4>My Mind: {dreamReact}</h4>
