@@ -2,7 +2,7 @@ import axios from "axios";
 import { Link, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { baseURL1, config } from "../services/index.js";
-import Form1 from "../components/Form1";
+
 
 function Relationships(props) {
   const [relationships, setRelationships] = useState([]);

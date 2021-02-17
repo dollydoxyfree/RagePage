@@ -8,6 +8,9 @@ import Relationships from "./components/Relationships";
 import axios from "axios";
 import { baseURL1, baseURL2, baseURL3, config } from "./services/index.js";
 import Form1 from './components/Form1'
+import Form2 from './components/Form2'
+import Form3 from './components/Form3'
+
 
 function App() {
   const [relationships, setRelationships] = useState([]);
@@ -78,6 +81,19 @@ function App() {
       </Route>
 
       <Route path="/hospitality">
+        <div className='buttons-container'>
+      <Link to='/hospitality/new'><button id='hosButt'>Create Post</button></Link>
+        <Link to='/hospitality'><button>cancel</button></Link>
+        </div>
+        <Route path="/hospitality/new">
+        <div className="form2">
+          <Form2
+            hospitality={hospitality}
+            setToggleFetch={setToggleFetch}
+          />
+        </div>
+          </Route>
+          
         <div className="hospitality-container">
           {hospitality.map((hospitality) => (
             <Hospitality hospitality={hospitality} />
@@ -87,6 +103,21 @@ function App() {
 
       
       <Route path="/road-rage">
+
+        <div className='buttons-container'>
+      <Link to='/road-rage/new'><button id='roaButt'>Create Post</button></Link>
+        <Link to='/road-rage'><button>cancel</button></Link>
+        </div>
+        <Route path="/road-rage/new">
+        <div className="form3">
+          <Form3
+            roadRage={roadRage}
+            setToggleFetch={setToggleFetch}
+          />
+        </div>
+          </Route>
+
+
         <div className="road-rage-container">
           {roadRage.map((roadRage) => (
             <RoadRage roadRage={roadRage} />
