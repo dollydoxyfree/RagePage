@@ -4,6 +4,8 @@ import { baseURL1, config } from "../services";
 import { useHistory, useParams, Link, Route } from "react-router-dom";
 
 function Form1(props) {
+  const [relationships, setRelationships] = useState([])
+  const [toggleFetch, setToggleFetch] = useState(false)
   const [anonAuthor, setAnonAuthor] = useState("");
   const [situation, setSituation] = useState("");
   const [dreamReact, setDreamReact] = useState("");
@@ -49,10 +51,10 @@ function Form1(props) {
 
   return (
     <div>
-    <Route path="/realtionships/new">
+    <Route path="/relationships/new">
     <div className='form1'>
-  <Form1 relationships={relationships} setToggleFetch={setToggleFetch}/>
-</div>
+          <Form1 relationships={relationships} setToggleFetch={setToggleFetch} />
+          </div>
 </Route>
 
 
@@ -85,12 +87,13 @@ function Form1(props) {
         <input
           value={anonAuthor}
           onChange={(e) => setAnonAuthor(e.target.value)}
-        />
+        />{" "}
         <br />
         <br />
         <button type="submit">RAGE</button>
-      </form>
-    </Route>
+        </form>
+      </Route>
+      </div>
   );
 }
 
