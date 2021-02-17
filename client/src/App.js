@@ -1,16 +1,21 @@
-import logo from './logo.svg';
-import {useEffect} from 'react'
-import './App.css';
+import Home from "./components/Home";
+import Hospitality from './components/Hospitality'
+import {Route, Link} from 'react-router-dom'
+import "./App.css";
+import RoadRage from './components/RoadRage'
+import Relationships from "./components/Relationships";
 
 function App() {
   return (
     <div>
-      <header>
-        <h1 id='title1'>WGMG</h1>
-        <h3 id='title2'>What GRINDS My Gears</h3>
-      </header>
+  
+      <Home />
+      <Relationships />
+      <Hospitality />
+      <RoadRage />
+   
     </div>
-  )
+  );
 }
 
 export default App;
