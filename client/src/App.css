@@ -1,16 +1,15 @@
 *{
   background-color: black;
-  color: rgb(249, 0, 133);
 }
 
 
-.gearsGiph{
-  width: 100px;
+.giphy{
+  width: 140px;
   height: 100px;
-  display: block;
-  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  margin-left:  auto;
   margin-right: auto;
-  width: 50%;
 
 }
 
@@ -23,9 +22,9 @@
 
 header{
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
   font-family: 'Reggae One', cursive;
-  display: flex;
+  /* display: flex; */
   justify-content: flex-start;
 }
 
@@ -35,13 +34,16 @@ nav{
   position: center;
   margin: 0 auto;
   justify-content: center;
-  font-size: small;
+  justify-content: space-evenly;
+  font-size: xx-large;
   margin-top: 5px;
+  height: 30px;
+  width: 300px;
 }
 
 .navcontent{
   margin: 0px;
-  color: goldenrod;
+  color: grey;
 }
 
 
@@ -49,16 +51,22 @@ nav{
   margin-top: 2px;
 }
 
+
 .ragePage{
   font-size: 20px;
   padding: 0px;
   margin: 0 auto;
   font-stretch: extra-condensed;
+  width: 370px;
   display: flex;
- /* flex-wrap: wrap; */
- justify-content: left;
+  flex-wrap: nowrap;
+ justify-content: center;
+ margin-bottom: 2px;
 }
 
+#title1{
+  margin: 0 auto;
+}
 
 #title2{
   padding: 0px;
@@ -80,24 +88,34 @@ nav{
   margin: 40px;
   margin-top: 0px;
   margin-bottom: 0px;
+  flex-flow: row;
+  justify-content: center;
 }
 
 .rel-div{
   margin: 0px;
 }
 
+.resources-container{
+  margin-top: 90px;
+  margin-left: 0px;
+  margin-right: 0px;
+  justify-content: center;
+  width: auto;
+}
+
 .resources{
-  background-color: rgb(59, 32, 55);
+  border: 2px solid rgb(249, 0, 133);
   margin-top: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   flex-flow: row;
-  height: 270px;
-  width: 150px;
+  height: 300px;
+  width: 200px;
   overflow-x: auto;
   overflow-y: hidden;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 
@@ -130,11 +148,11 @@ text-decoration: none;
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  margin: 0px;
+  margin-top: 50px;
 }
 
 .input-container{
-  border: 1px solid rgb(170, 0, 249);
+  /* border: 1px solid rgb(170, 0, 249); */
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -155,7 +173,7 @@ text-decoration: none;
 
 form{
   width: 80%;
-  border: 2px solid rgb(170, 0, 249);
+  /* border: 2px solid rgb(170, 0, 249); */
   padding: 10px;
   align-content: center;
 }

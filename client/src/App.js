@@ -51,9 +51,9 @@ function App() {
 
       <header>
 <div className='ragePage'>
-          <h1 id='title1'>:RAGE: PAGE</h1>
+          <h1 id='title1'>:RAGE☠︎PAGE:</h1>
             </div>
-          <h3 id="title2">What GRINDS My Gears</h3>
+          <h3 id="title2">...What Really GRINDS My Gears...</h3>
    
         </header>
 
