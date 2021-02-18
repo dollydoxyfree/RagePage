@@ -17,6 +17,7 @@
   padding: 0px;
   height: 100px;
   color: rgb(249, 0, 133);
+  /* position: fixed; */
 }
 
 header{
@@ -47,40 +48,57 @@ nav{
   margin-top: 2px;
 }
 
-#title1{
-  font-size: 50px;
+.ragePage{
+  font-size: 20px;
   padding: 0px;
-  margin: 2px;
+  margin: 0 auto;
   font-stretch: extra-condensed;
+  display: flex;
+ /* flex-wrap: wrap; */
+ justify-content: left;
 }
+
 
 #title2{
   padding: 0px;
   margin: 0px;
   font-style: italic;
-  font-size: 15px;
+  font-size: 7px;
   font-stretch: ultra-expanded;
+  color: rgb(10, 128, 10);
+  display: flex;
+  flex-flow:column;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  height: 10px;
 }
 
 .title-container{
   display: flex;
   padding: 10px;
-  margin: 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
+.rel-div{
+  margin: 0px;
+}
 
 .road-rage-container,
 .relationships-container,
 .hospitality-container{
   background-color: rgb(170, 0, 249);
-  padding: 20px;
   margin: 20px;
   margin-top: 40px;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-between;
   flex-flow: column;
+  height: 460px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
 }
 
 nav a,
@@ -107,6 +125,8 @@ text-decoration: none;
   text-align: justify;
   padding: 10px;
 }
+
+
 
 .form1,
 .form2,

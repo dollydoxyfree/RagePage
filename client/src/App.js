@@ -50,9 +50,11 @@ function App() {
       <div className='title-container'>
 
       <header>
-
-        <h1 id="title1">WGMG</h1>
-        <h3 id="title2">What GRINDS My Gears</h3>
+<div className='ragePage'>
+          <h1 id='title1'>:RAGE: PAGE</h1>
+            </div>
+          <h3 id="title2">What GRINDS My Gears</h3>
+   
         </header>
 
 
@@ -92,7 +94,7 @@ function App() {
           </div>
         </Route>
         <div>   <h1>I Love you but...</h1></div>
-        <div className="relationships-container">
+        <div className="relationships-container" >
           {relationships.map((relationships) => (
             <Relationships relationships={relationships} />
           ))}
