@@ -15,9 +15,12 @@ function Home() {
         </div>
   
       <div className='resources-container'>
-      <div className='resources'>
-        <h4>Mindfullness now I will keep typing just to fill the div and see if the scroll will truley scroll or if i need to try again</h4><br/>
-          <h4>and now here is some more text just for great measure...</h4>
+        <div className='resources'>
+        
+          <div>
+            Scroll stuff goes here.
+          </div>
+
           </div>
       </div>
 </div>
