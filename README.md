@@ -1,6 +1,6 @@
 # Project Overview
 
-## What GRINDS My Gears (WGMG)
+## Rage Page (What Grinds My Gears)
 Mindful Venting
 
 ## Description
@@ -62,7 +62,7 @@ Road-Rage:
 |Feb 17| Connect Data with API | Complete
 |Feb 18| Initial Clickable Model  | Complete
 |Feb 18| Responsive Styling | Incomplete
-|Feb 19| MVP | Incomplete
+|Feb 19| MVP | Complete
 |Feb 19| Deploy Repo | Incomplete
 |Feb 20| Advanced Styling | Incomplete
 |Feb 21 | PMVP Animations | Incomplete
@@ -78,9 +78,9 @@ Road-Rage:
 | Render Data/API | H | 10hrs | 5.5hrs | 5.5hrs |
 | Adding Nav | M | 2hrs | 1hr | 1hr |
 | Adding Form | H | 9hrs| 3hrs | 3hrs |
-| Responsive UX | M | 8hrs | 0 | 0 |
-| Advanced Style | L | 10hrs | 0 | 0 |
-| Total | H | 44hrs| 13.5hrs | 0hrs |
+| Responsive UX | M | 8hrs | 4.5hrs | 0 |
+| Advanced Style | L | 10hrs | 2hrs | 0 |
+| Total | H | 44hrs| 20hrs | 0hrs |
 
 ## SWOT Analysis
 
