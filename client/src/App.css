@@ -1,7 +1,6 @@
 *{
   background-color: black;
   color: rgb(249, 0, 199);
-  
 }
 
 header{
@@ -23,29 +22,34 @@ nav{
   font-size: 50px;
   padding: 0px;
   margin: 2px;
+  font-stretch: extra-condensed;
 }
 
 #title2{
   padding: 0px;
   margin: 2px;
   font-style: italic;
+  font-size: 15px;
+  font-stretch: ultra-expanded;
 }
 
 .title-container{
-  border: 2px solid rgb(249, 0, 199);
   padding: 20px;
   margin: 20px;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 
 .road-rage-container,
 .relationships-container,
 .hospitality-container{
-  border: 2px solid rgb(170, 0, 249);
+  background-color: rgb(170, 0, 249);
   padding: 20px;
   margin: 20px;
   margin-top: 40px;
+  display: flex;
+  justify-content:space-around;
+  flex-flow: column;
 }
 
 nav a,
@@ -59,14 +63,40 @@ text-decoration: none;
 .buttons-container{
   display: flex;
   justify-content: center;
+  justify-content: space-around;
   margin: 0px;
 }
 
 .input-container{
   border: 1px solid rgb(170, 0, 249);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  padding: 10px;
 }
 
+.form1,
+.form2,
+.form3{
+ display: flex;
+ justify-content: center;
+ justify-items: stretch;
+}
 
+form{
+  width: 80%;
+  border: 2px solid rgb(170, 0, 249);
+  padding: 10px;
+  align-content: center;
+}
+
+textarea,
+input{
+  width: 90%;
+  height: 40px;
+}
 /* .App {
   text-align: center;
 }

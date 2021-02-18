@@ -26,22 +26,20 @@ function Relationships(props) {
 
   return (
 
-  
-
       
     <div>
-
 
       <Link to="/relationships">
         <div className='input-container'>
           <h3>{title}</h3>
-          <h6>The Scene: {situation}</h6>
-          <h4>My Mind: {dreamReact}</h4>
-          <h6>What Actually Happened: {reality}</h6>
+          <h6>{situation}</h6>
+          <h4>{dreamReact}</h4>
+          <h6>{reality}</h6>
           <h6>posted by {anonAuthor}</h6>
         </div>
       </Link>
     </div>
+    
   );
 }
 

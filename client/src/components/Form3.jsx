@@ -55,29 +55,29 @@ function Form3(props) {
     <Route path="/road-rage/new">
       <form onSubmit={handleSubmit}>
         <h4>VENT</h4>
-        <label>Title</label>
+        <label>Title</label><br/>
         <input value={title} onChange={(e) => setTitle(e.target.value)} />
         <br />
         <br />
-        <label>Situation </label>
+        <label>Situation </label><br/>
         <textarea
           value={situation}
           onChange={(e) => setSituation(e.target.value)}
         />
         <br />
         <br />
-        <label>I WISH I could of </label>
+        <label>I WISH I could of </label><br/>
         <textarea
           value={dreamReact}
           onChange={(e) => setDreamReact(e.target.value)}
         />
         <br />
         <br />
-        <label>Reality</label>
+        <label>Reality</label><br/>
         <textarea value={reality} onChange={(e) => setReality(e.target.value)} />
         <br />
         <br />
-        <label>name or alias</label>
+        <label>name or alias</label><br/>
         <input
           value={anonAuthor}
           onChange={(e) => setAnonAuthor(e.target.value)}
