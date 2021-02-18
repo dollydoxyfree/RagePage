@@ -1,11 +1,30 @@
 *{
   background-color: black;
-  color: rgb(249, 0, 199);
+  color: rgb(249, 0, 133);
+}
+
+.gearsGiph{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.header-div{
+  padding: 0px;
+  height: 100px;
+  color: rgb(249, 0, 133);
 }
 
 header{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  font-family: 'Reggae One', cursive;
+  display: flex;
+  justify-content: flex-start;
 }
 
 
@@ -15,8 +34,18 @@ nav{
   margin: 0 auto;
   justify-content: center;
   font-size: small;
+  margin-top: 5px;
 }
 
+.navcontent{
+  margin: 0px;
+  color: goldenrod;
+}
+
+
+.nav-div{
+  margin-top: 2px;
+}
 
 #title1{
   font-size: 50px;
@@ -27,16 +56,18 @@ nav{
 
 #title2{
   padding: 0px;
-  margin: 2px;
+  margin: 0px;
   font-style: italic;
   font-size: 15px;
   font-stretch: ultra-expanded;
 }
 
 .title-container{
-  padding: 20px;
+  display: flex;
+  padding: 10px;
   margin: 20px;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 

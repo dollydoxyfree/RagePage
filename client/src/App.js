@@ -46,23 +46,33 @@ function App() {
   }, [toggleFetch]);
 
   return (
-    <div>
-      <header className="title-container">
+    <div className='header-div'>
+      <div className='title-container'>
+
+      <header>
+
         <h1 id="title1">WGMG</h1>
         <h3 id="title2">What GRINDS My Gears</h3>
-      </header>
+        </header>
 
-      <div>
+
+        </div>
+
+
+<div className='nav-div'>
         <Nav />
-      </div>
-
-      <Route path="/" exact>
+        </div>
+      
+    
+        <Route path="/" exact>
         <div className="gearsGiph">
           <br />
           <br />
           <Home />
         </div>
       </Route>
+
+
 
       <Route path="/relationships">
         <div className="buttons-container">
