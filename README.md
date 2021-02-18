@@ -56,11 +56,11 @@ Road-Rage:
 |  Day | Deliverable | Status
 |---|---| ---|
 |Feb 16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Feb 16| Project Approval | Incomplete
-|Feb 16| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Feb 17| Pseudocode / actual code | Incomplete
-|Feb 17| Connect Data with API | Incomplete
-|Feb 18| Initial Clickable Model  | Incomplete
+|Feb 16| Project Approval | Complete
+|Feb 16| Core Application Structure (HTML, CSS, etc.) | Complete
+|Feb 17| Pseudocode / actual code | Complete
+|Feb 17| Connect Data with API | Complete
+|Feb 18| Initial Clickable Model  | Complete
 |Feb 18| Responsive Styling | Incomplete
 |Feb 19| MVP | Incomplete
 |Feb 19| Deploy Repo | Incomplete
@@ -74,13 +74,13 @@ Road-Rage:
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Skeleton/Route/Link | H | 5hrs | 0 | 0 | 
-| Render Data/API | H | 10hrs | 0 | 0 |
-| Adding Nav | M | 2hrs | 0 | 0 |
-| Adding Form | H | 9hrs| 0 | 0 |
+| Skeleton/Route/Link | H | 5hrs | 4hrs | 4hrs | 
+| Render Data/API | H | 10hrs | 5.5hrs | 5.5hrs |
+| Adding Nav | M | 2hrs | 1hr | 1hr |
+| Adding Form | H | 9hrs| 3hrs | 3hrs |
 | Responsive UX | M | 8hrs | 0 | 0 |
 | Advanced Style | L | 10hrs | 0 | 0 |
-| Total | H | 44hrs| 0hrs | 0hrs |
+| Total | H | 44hrs| 13.5hrs | 0hrs |
 
 ## SWOT Analysis
 
