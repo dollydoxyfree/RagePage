@@ -11,6 +11,7 @@ import { baseURL1, baseURL2, baseURL3, config } from "./services/index.js";
 import Form1 from "./components/Form1";
 import Form2 from "./components/Form2";
 import Form3 from "./components/Form3";
+import Handles from './components/Handles'
 
 function App() {
   const [relationships, setRelationships] = useState([]);
@@ -48,12 +49,8 @@ function App() {
   return (
     <div className="header-div">
 
-<footer><a target='_blank' href='https://github.com/dollydoxyfree'><img height='20px' width='20px' src='https://res.cloudinary.com/dollydoxyfree/image/upload/v1613762248/Screen_Shot_2021-02-19_at_11.13.48_AM_g7uuop.png' alt='github logo' /></a>
-        
-        <a target='_blank' href='https://www.linkedin.com/in/jessica-embury-49027b204/'><img height='20px' width='20px' src='https://res.cloudinary.com/dollydoxyfree/image/upload/v1613762250/Screen_Shot_2021-02-19_at_11.16.15_AM_qmqssr.png' alt='github logo' /></a>
-        
-      </footer>
-      
+      <Handles />
+
       <div className="title-container">
         <header>
           <div className="ragePage">
@@ -69,15 +66,13 @@ function App() {
 
       <Route path="/" exact>
         <div className="gearsGiph">
-          <br />
-          <br />
+          <br/>
           <Home />
-        </div>
+      </div>
       </Route>
 
-      <Route path="/relationships">
+      <Route path="/relationships" >
         <div className="section">
-          {" "}
           <h1>Relationships</h1>
         </div>
 
@@ -86,7 +81,9 @@ function App() {
             <button id="relButt">Create Post</button>
           </Link>
         </div>
-        <Route path="/relationships/new">
+
+        
+        <Route path="/relationships/new" exact> 
           <div className="form1">
             <Form1
               relationships={relationships}
@@ -95,11 +92,13 @@ function App() {
           </div>
         </Route>
 
+        <Route path='/relationships' exact>
         <div className="relationships-container">
           {relationships.map((relationships) => (
             <Relationships relationships={relationships} />
           ))}
-        </div>
+          </div>
+          </Route>
       </Route>
 
       <Route path="/hospitality">
@@ -114,17 +113,19 @@ function App() {
           </Link>
         </div>
 
-        <Route path="/hospitality/new">
+        <Route path="/hospitality/new" >
           <div className="form2">
             <Form2 hospitality={hospitality} setToggleFetch={setToggleFetch} />
           </div>
         </Route>
 
+        <Route path='/hospitality' exact>
         <div className="hospitality-container">
           {hospitality.map((hospitality) => (
             <Hospitality hospitality={hospitality} />
           ))}
-        </div>
+          </div>
+          </Route>
       </Route>
 
       <Route path="/road-rage">
@@ -143,18 +144,14 @@ function App() {
             <Form3 roadRage={roadRage} setToggleFetch={setToggleFetch} />
           </div>
         </Route>
-
+<Route path='/road-rage' exact>
         <div className="road-rage-container">
           {roadRage.map((roadRage) => (
             <RoadRage roadRage={roadRage} />
           ))}
-        </div>
-      </Route><br/>
-      {/* <footer><a target='_blank' href='https://github.com/dollydoxyfree'><img height='25px' width='25px' src='https://res.cloudinary.com/dollydoxyfree/image/upload/v1613762248/Screen_Shot_2021-02-19_at_11.13.48_AM_g7uuop.png' alt='github logo' /></a>
-        
-      <a target='_blank' href='https://www.linkedin.com/in/jessica-embury-49027b204/'><img height='25px' width='25px' src='https://res.cloudinary.com/dollydoxyfree/image/upload/v1613762250/Screen_Shot_2021-02-19_at_11.16.15_AM_qmqssr.png' alt='github logo' /></a>
-      
-      </footer> */}
+          </div>
+          </Route>
+      </Route>
    
     </div>
 

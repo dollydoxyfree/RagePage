@@ -54,7 +54,6 @@ function Form1(props) {
     
 
 
-    <Route path="/relationships/new" exact>
 
       
       <form onSubmit={handleSubmit}>
@@ -99,7 +98,7 @@ function Form1(props) {
         
 
         </form>
-      </Route>
+ 
   );
 }
 
