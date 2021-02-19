@@ -46,35 +46,27 @@ function App() {
   }, [toggleFetch]);
 
   return (
-    <div className='header-div'>
-      <div className='title-container'>
-
-      <header>
-<div className='ragePage'>
-          <h1 id='title1'>:RAGE☠︎PAGE:</h1>
-            </div>
+    <div className="header-div">
+      <div className="title-container">
+        <header>
+          <div className="ragePage">
+            <h1 id="title1">:RAGE☠︎PAGE:</h1>
+          </div>
           <h3 id="title2">...What Really GRINDS My Gears...</h3>
-   
         </header>
+      </div>
 
-
-        </div>
-
-
-<div className='nav-div'>
+      <div className="nav-div">
         <Nav />
-        </div>
-      
-    
-        <Route path="/" exact>
+      </div>
+
+      <Route path="/" exact>
         <div className="gearsGiph">
           <br />
           <br />
           <Home />
         </div>
       </Route>
-
-
 
       <Route path="/relationships">
         <div className="buttons-container">
@@ -93,8 +85,11 @@ function App() {
             />
           </div>
         </Route>
-        <div>   <h1>I Love you but... 😠</h1></div>
-        <div className="relationships-container" >
+        <div className="section">
+          {" "}
+          <h1>Relationships</h1>
+        </div>
+        <div className="relationships-container">
           {relationships.map((relationships) => (
             <Relationships relationships={relationships} />
           ))}
@@ -103,6 +98,7 @@ function App() {
 
       <Route path="/hospitality">
         <div className="buttons-container">
+        
           <Link to="/hospitality/new">
             <button id="hosButt">Create Post</button>
           </Link>
@@ -115,6 +111,9 @@ function App() {
             <Form2 hospitality={hospitality} setToggleFetch={setToggleFetch} />
           </div>
         </Route>
+        <div className="section">{" "}
+            <h1>Business</h1>
+          </div>
 
         <div className="hospitality-container">
           {hospitality.map((hospitality) => (
@@ -125,6 +124,7 @@ function App() {
 
       <Route path="/road-rage">
         <div className="buttons-container">
+          
           <Link to="/road-rage/new">
             <button id="roaButt">Create Post</button>
           </Link>
@@ -137,6 +137,10 @@ function App() {
             <Form3 roadRage={roadRage} setToggleFetch={setToggleFetch} />
           </div>
         </Route>
+
+        <div className="section">{" "}
+            <h1>Road Rage</h1>
+          </div>
 
         <div className="road-rage-container">
           {roadRage.map((roadRage) => (

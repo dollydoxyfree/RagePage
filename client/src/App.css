@@ -1,5 +1,6 @@
 *{
   background-color: black;
+  font-family: 'Reggae One', cursive;
 }
 
 
@@ -16,14 +17,14 @@
 .header-div{
   padding: 0px;
   height: 100px;
-  color: rgb(249, 0, 133);
+  color: rgb(249, 0, 104);
   /* position: fixed; */
 }
 
 header{
   text-align: center;
   margin-top: 5px;
-  font-family: 'Reggae One', cursive;
+  /* font-family: 'Reggae One', cursive; */
   /* display: flex; */
   justify-content: flex-start;
 }
@@ -147,11 +148,23 @@ a{
 text-decoration: none;
 }
 
+.section{
+  text-align: center;
+  color: rgb(10, 128, 10);
+  
+}
+
+
 .buttons-container{
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+button{
+  color: red;
 }
 
 .input-container{
@@ -180,6 +193,7 @@ form{
   padding: 10px;
   align-content: center;
   color: grey;
+  border: 1px solid red;
 }
 
 textarea,
