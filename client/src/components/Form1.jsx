@@ -51,8 +51,12 @@ function Form1(props) {
 
   return (
 
+    
+
 
     <Route path="/relationships/new">
+
+      
       <form onSubmit={handleSubmit}>
         <h4>VENT</h4>
         <label>Title</label><br/>
@@ -85,6 +89,15 @@ function Form1(props) {
         <br />
         <br />
         <button type="submit">RAGE</button>
+
+
+        <div className='cancel'>
+      <Link to="/relationships">
+            <button>cancel</button>
+          </Link>
+        </div>
+        
+        
         </form>
       </Route>
   );

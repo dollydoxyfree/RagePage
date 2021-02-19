@@ -85,6 +85,15 @@ function Form3(props) {
         <br />
         <br />
         <button type="submit">RAGE</button>
+
+
+        <div className='cancel'>
+      <Link to="/road-rage">
+            <button>cancel</button>
+          </Link>
+        </div>
+        
+
         </form>
       </Route>
   );

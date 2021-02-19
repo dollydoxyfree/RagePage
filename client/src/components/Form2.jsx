@@ -85,6 +85,15 @@ function Form2(props) {
         <br />
         <br />
         <button type="submit">RAGE</button>
+
+        
+        <div className='cancel'>
+      <Link to="/hospitality">
+            <button>cancel</button>
+          </Link>
+        </div>
+        
+
         </form>
       </Route>
   );
