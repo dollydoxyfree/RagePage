@@ -132,7 +132,7 @@ function App() {
 
         <div className="buttons-container">
           
-          <Link to="/road-rage/new">
+          <Link to="/road-rage/new" exact>
             <button id="roaButt">Create Post</button>
           </Link>
          
