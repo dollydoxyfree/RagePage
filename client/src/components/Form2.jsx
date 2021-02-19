@@ -52,7 +52,11 @@ function Form2(props) {
   return (
 
 
+
+
     <Route path="/hospitality/new">
+
+        
       <form onSubmit={handleSubmit}>
         <h4>VENT</h4>
         <label>Title</label><br/>
@@ -95,6 +99,8 @@ function Form2(props) {
         
 
         </form>
+
+        
       </Route>
   );
 }

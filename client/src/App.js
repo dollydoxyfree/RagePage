@@ -69,8 +69,7 @@ function App() {
       </Route>
 
       <Route path="/relationships">
-
-      <div className="section">
+        <div className="section">
           {" "}
           <h1>Relationships</h1>
         </div>
@@ -79,7 +78,6 @@ function App() {
           <Link to="/relationships/new">
             <button id="relButt">Create Post</button>
           </Link>
-  
         </div>
         <Route path="/relationships/new">
           <div className="form1">
@@ -89,7 +87,7 @@ function App() {
             />
           </div>
         </Route>
-    
+
         <div className="relationships-container">
           {relationships.map((relationships) => (
             <Relationships relationships={relationships} />
@@ -98,17 +96,15 @@ function App() {
       </Route>
 
       <Route path="/hospitality">
-
-      <div className="section">{" "}
-            <h1>Business</h1>
-          </div>
+        <div className="section">
+          {" "}
+          <h1>Business</h1>
+        </div>
 
         <div className="buttons-container">
-        
           <Link to="/hospitality/new">
             <button id="hosButt">Create Post</button>
           </Link>
-     
         </div>
 
         <Route path="/hospitality/new">
@@ -116,7 +112,7 @@ function App() {
             <Form2 hospitality={hospitality} setToggleFetch={setToggleFetch} />
           </div>
         </Route>
-      
+
         <div className="hospitality-container">
           {hospitality.map((hospitality) => (
             <Hospitality hospitality={hospitality} />
@@ -125,17 +121,15 @@ function App() {
       </Route>
 
       <Route path="/road-rage">
-
-      <div className="section">{" "}
-            <h1>Road Rage</h1>
-          </div>
+        <div className="section">
+          {" "}
+          <h1>Road Rage</h1>
+        </div>
 
         <div className="buttons-container">
-          
           <Link to="/road-rage/new" exact>
             <button id="roaButt">Create Post</button>
           </Link>
-         
         </div>
         <Route path="/road-rage/new">
           <div className="form3">
@@ -143,15 +137,17 @@ function App() {
           </div>
         </Route>
 
-       
         <div className="road-rage-container">
           {roadRage.map((roadRage) => (
             <RoadRage roadRage={roadRage} />
           ))}
         </div>
       </Route>
-
+      <footer>LinkedIn GitHub</footer>
+      
     </div>
+
+
   );
 }
 
