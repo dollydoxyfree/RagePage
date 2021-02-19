@@ -10,7 +10,7 @@
   justify-content: center;
   margin-left:  auto;
   margin-right: auto;
-
+  margin-top: 20px;
 }
 
 .header-div{
@@ -35,8 +35,9 @@ nav{
   margin: 0 auto;
   justify-content: center;
   justify-content: space-evenly;
-  font-size: xx-large;
-  margin-top: 5px;
+  font-size: 50px;
+  margin-top: 15px;
+  /* margin-bottom: 15px; */
   height: 30px;
   width: 300px;
 }
@@ -154,7 +155,7 @@ text-decoration: none;
 }
 
 .input-container{
-  /* border: 1px solid rgb(170, 0, 249); */
+  border: 1px solid rgb(170, 0, 249);
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -178,6 +179,7 @@ form{
   /* border: 2px solid rgb(170, 0, 249); */
   padding: 10px;
   align-content: center;
+  color: grey;
 }
 
 textarea,

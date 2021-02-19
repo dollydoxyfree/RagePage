@@ -9,7 +9,7 @@ function Home() {
 
       <div className='giphy'>
       <Link to='/' exact>
-        <iframe src="https://giphy.com/embed/SiItwB3nrAZuRKl3vP" />
+      <div><iframe src="https://giphy.com/embed/W4p9FR45765il3VVYj" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
  
         </Link >
         </div>
@@ -18,7 +18,7 @@ function Home() {
         <div className='resources'>
         
           <div>
-            Scroll stuff goes here.
+            A variety of resources will scroll here.
           </div>
 
           </div>
