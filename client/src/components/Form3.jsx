@@ -89,7 +89,7 @@ function Form3(props) {
 
         <div className='cancel'>
       <Link to="/road-rage">
-            <button>cancel</button>
+      <h6 className='cancel'>cancel</h6>
           </Link>
         </div>
         

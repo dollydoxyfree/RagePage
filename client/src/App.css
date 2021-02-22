@@ -1,11 +1,14 @@
 *{
-
   font-family: 'Reggae One', cursive;
+}
+
+body{
+ background-image: url(https://giphy.com/gifs/RkhMKpIYLT9sukfuXg/html5);
 }
 
 .header-div{
   background-color: black;
-  height: 150px;
+  height: 120px;
 }
 
 header{
@@ -46,24 +49,25 @@ nav{
 
 .title-container{
   display: grid;
-  padding: 10px;
+  padding: 5px;
   margin: 0px;
   margin-top: 0px;
   flex-flow: row;
   justify-content: left;
   color: rgb(249, 0, 75);
-  font-size: x-large;
+  font-size: xx-large;
   background-color: black;
 
 }
 
 #title1{
   margin-bottom: 3px;
+  margin-top: 0px;
 }
 
 #title2{
-  padding: 0px;
-
+ margin-left: 10px;
+  text-align: left;
   font-style: italic;
   font-size: 10px;
   font-stretch: ultra-expanded;
@@ -103,35 +107,9 @@ color: rgb(249, 0, 75);
   margin: 0px;
 }
 
-/* .resources-container{
-  margin-top: 90px;
-  margin-left: 0px;
-  margin-right: 0px;
-  justify-content: center;
-  width: auto;
-} */
-
-/* .resources{
-  margin-left:0 auto;
-  margin-right:0 auto;
-  display: flex; */
-  /* justify-content:center; */
-  /* flex-flow: row;
-  flex-wrap: nowrap;
-  height: 380px;
-  width: 340px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  text-align: center;
-  padding: 15px; */
-  /* align-self: center; */
-/* } */
-
-
-
 
 .section{
- margin-top: 60px;
+ margin-top: 20px;
   text-align: center;
   /* color: rgb(10, 128, 10); */
   
@@ -151,13 +129,11 @@ button{
 }
 
 .input-container{
-  border: 1px solid rgb(249, 0, 75);
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  border: 4px solid black;
+margin: 5px;
   text-align: justify;
   padding: 10px;
+  background-color: rgb(93, 93, 93);
 }
 
 
@@ -168,67 +144,28 @@ button{
  display: flex;
  justify-content: center;
  justify-items: stretch;
+ margin-bottom: 10px;
+ padding: 0px;
 }
 
 form{
-  width: 300px;
-
-
-  padding: 10px;
+  width: 500px;
+  justify-content: stretch;
+  background-color: rgb(93, 93, 93);
+  /* padding: 10px; */
   align-content: center;
-  color: grey;
-  border: 1px solid red;
+  justify-content: space-evenly;
+  text-align: center;
+  color: rgb(249, 0, 75);
+  border: 3px solid black;
 }
 
 textarea,
 input{
-  width: 90%;
+  width: 400px;
   height: 40px;
   color: gray;
+  background-color: black;
 }
 
 
-/* footer{
-  font-size: 10px;
-  text-align: right;
-  margin-right: 5px;
-  margin-top: 5px;
-} */
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

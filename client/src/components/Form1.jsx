@@ -92,7 +92,7 @@ function Form1(props) {
 
         <div className='cancel'>
       <Link to="/relationships">
-            <button>cancel</button>
+            <h6 className='cancel'>cancel</h6>
           </Link>
         </div>
         
