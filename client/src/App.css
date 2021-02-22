@@ -57,7 +57,7 @@ h4.navcontent{
   margin-top: 0px;
   flex-flow: row;
   justify-content: center;
-  color: rgb(249, 0, 54);
+  color: rgb(249, 141, 0);
   font-size: xx-large;
   background-color: black;
 
@@ -103,7 +103,7 @@ text-decoration: none;
 }
 
 nav a :hover{
-  color: rgb(249, 0, 54);
+  color: rgb(249, 71, 0);
 }
 
 .rel-div{
@@ -121,14 +121,17 @@ nav a :hover{
 
 .buttons-container{
   display: flex;
-  justify-content: center;
+  align-content: right;
+  justify-content: right;
   justify-content: space-around;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 button{
   color: red;
+  background-color: black;
+
 }
 
 .input-container{
@@ -155,12 +158,12 @@ margin: 5px;
 form{
   width: 500px;
   justify-content: stretch;
-  background-color: rgb(93, 93, 93);
+  background-color: rgba(93, 93, 93, 0.205);
   /* padding: 10px; */
   align-content: center;
   justify-content: space-evenly;
   text-align: center;
-  color: rgb(249, 0, 75);
+  color: rgb(249, 141, 0);
   border: 3px solid black;
 }
 
