@@ -12,6 +12,7 @@ import Form1 from "./components/Form1";
 import Form2 from "./components/Form2";
 import Form3 from "./components/Form3";
 import Handles from './components/Handles'
+import Footer from './components/Footer'
 
 function App() {
   const [relationships, setRelationships] = useState([]);
@@ -67,12 +68,12 @@ function App() {
         <Nav />
       </div>
 
-      <Route path="/" exact>
+      {/* <Route path="/" exact>
         <div className="gearsGiph">
           <br/>
           <Home />
       </div>
-      </Route>
+      </Route> */}
 
       <Route path="/relationships" >
         <div className="section">
@@ -156,8 +157,9 @@ function App() {
           </Route>
       </Route>
    
-    </div>
 
+
+    </div>
 
   );
 }

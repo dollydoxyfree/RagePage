@@ -5,6 +5,7 @@
 body{
  background-image: url(https://media.giphy.com/media/lRR3VWjUMXh3wbuo32/giphy.gif);
  background-size: cover;
+ background-repeat: no;
 }
 
 .header-div{
@@ -19,7 +20,7 @@ header{
 nav{
   display: flex;
   flex-flow: row;
-  position: center;
+  position:relative;
   margin: 0 auto;
   justify-content: center;
   /* justify-content: space-evenly;
@@ -33,10 +34,13 @@ nav{
 }
 
 h4.navcontent{
-  margin: 0px;
+
   color: black;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 7px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   /* align-content: center; */
 }
 
@@ -45,6 +49,7 @@ h4.navcontent{
   display: grid;
   grid-row: auto;
   text-align: center;
+  justify-content: space-evenly;
   background-color:rgb(93, 93, 93);
 }
 
@@ -106,15 +111,13 @@ nav a :hover{
   color: rgb(249, 71, 0);
 }
 
-.rel-div{
-  margin: 0px;
-}
+
 
 
 .section{
  margin-top: 20px;
   text-align: center;
-  /* color: rgb(10, 128, 10); */
+  color: rgb(255, 81, 0);
   
 }
 
@@ -138,7 +141,7 @@ button{
   border: 4px solid black;
 margin: 1px;
   text-align: justify;
-  padding: 10px;
+  padding: 5px;
   background-color: rgb(93, 93, 93);
   color: black;
 }
@@ -176,3 +179,20 @@ input{
 }
 
 
+@media  screen and (max-width: 480px)and(min-width: 0px){
+
+  body{
+    background-image: url(https://media.giphy.com/media/5QMQdMrKAJznwY2q5k/giphy.gif);
+  }
+
+  .nav-div{
+   width: 90%;
+  }
+
+  .title-container{
+    width: 100%;
+  }
+  header{
+    width: 100%;
+  }
+}
