@@ -14,16 +14,17 @@ header{
 
 nav{
   display: flex;
+  flex-flow: row;
   position: center;
   margin: 0 auto;
   justify-content: center;
-  justify-content: space-evenly;
-  font-size: 30px;
+  justify-content: space-between;
+  font-size: 15px;
   margin-top: 15px;
   /* margin-bottom: 15px; */
   height: 30px;
   width: 300px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .navcontent{
