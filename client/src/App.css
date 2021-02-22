@@ -46,6 +46,7 @@ h4.navcontent{
 
 
 .nav-div{
+  width: 100%;
   display: grid;
   grid-row: auto;
   text-align: center;
@@ -60,6 +61,7 @@ h4.navcontent{
   padding: 5px;
   margin: 0px;
   margin-top: 0px;
+  width: 100%;
   flex-flow: row;
   justify-content: center;
   color: rgb(249, 141, 0);
@@ -79,7 +81,7 @@ h4.navcontent{
   font-style: italic;
   font-size: 10px;
   font-stretch: ultra-expanded;
-  color: rgb(255, 81, 0);
+  color: rgb(255, 21, 0);
 }
 
 
@@ -176,6 +178,18 @@ input{
   height: 40px;
   color: gray;
   background-color: black;
+}
+
+#footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 80px;
+background-color: black;
+text-align: center;
+color: rgb(255, 21, 0);
+  /* margin-bottom: 40px; */
 }
 
 
