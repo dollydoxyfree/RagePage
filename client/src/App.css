@@ -193,7 +193,7 @@ color: rgb(255, 21, 0);
 }
 
 
-@media  screen and (max-width: 480px)and(min-width: 0px){
+@media screen and (min-width: 480px){
 
   body{
     background-image: url(https://media.giphy.com/media/5QMQdMrKAJznwY2q5k/giphy.gif);
