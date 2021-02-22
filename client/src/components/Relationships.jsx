@@ -28,7 +28,7 @@ function Relationships(props) {
 
   
     
-    <div className='rel-div'>
+    
 
       <Link to="/relationships">
         <div className='input-container'>
@@ -38,11 +38,9 @@ function Relationships(props) {
           <h6>{reality}</h6>
           <h6>posted by {anonAuthor}</h6>
         </div>
-      </Link>
-      <br />
+      </Link>   
 
-    </div>
-      
+  
   );
 }
 
