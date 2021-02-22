@@ -3,7 +3,8 @@
 }
 
 body{
- background-image: url(https://giphy.com/gifs/RkhMKpIYLT9sukfuXg/html5);
+ background-image: url(https://media.giphy.com/media/3ohhwg2HbhMWrVXQXe/giphy.gif);
+ background-size: cover;
 }
 
 .header-div{
@@ -21,8 +22,8 @@ nav{
   position: center;
   margin: 0 auto;
   justify-content: center;
-  justify-content: space-evenly;
-  justify-content: space-around;
+  /* justify-content: space-evenly;
+  justify-content: space-around; */
   font-size: 15px;
   margin-top: 15px;
   /* margin-bottom: 15px; */
@@ -31,9 +32,11 @@ nav{
   flex-wrap: nowrap;
 }
 
-.navcontent{
+h4.navcontent{
   margin: 0px;
   color: black;
+  display: flex;
+  justify-content: space-evenly;
   /* align-content: center; */
 }
 
@@ -54,7 +57,7 @@ nav{
   margin-top: 0px;
   flex-flow: row;
   justify-content: center;
-  color: rgb(249, 0, 75);
+  color: rgb(249, 0, 54);
   font-size: xx-large;
   background-color: black;
 
@@ -100,7 +103,7 @@ text-decoration: none;
 }
 
 nav a :hover{
-color: rgb(249, 0, 75);
+  color: rgb(249, 0, 54);
 }
 
 .rel-div{
@@ -134,6 +137,7 @@ margin: 5px;
   text-align: justify;
   padding: 10px;
   background-color: rgb(93, 93, 93);
+  color: black;
 }
 
 
