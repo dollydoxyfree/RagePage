@@ -30,15 +30,16 @@ nav{
 
 .navcontent{
   margin: 0px;
-  color: grey;
+  color: black;
+  /* align-content: center; */
 }
 
 
 .nav-div{
-  margin-top: 2px;
   display: grid;
   grid-row: auto;
-  align-tracks: 1 / 2px;
+  text-align: center;
+  background-color:rgb(93, 93, 93);
 }
 
 
@@ -53,6 +54,7 @@ nav{
   color: rgb(249, 0, 75);
   font-size: x-large;
   background-color: black;
+
 }
 
 #title1{
@@ -61,7 +63,7 @@ nav{
 
 #title2{
   padding: 0px;
-  margin-left: 10px;
+
   font-style: italic;
   font-size: 10px;
   font-stretch: ultra-expanded;
@@ -101,29 +103,29 @@ color: rgb(249, 0, 75);
   margin: 0px;
 }
 
-.resources-container{
+/* .resources-container{
   margin-top: 90px;
   margin-left: 0px;
   margin-right: 0px;
   justify-content: center;
   width: auto;
-}
+} */
 
-.resources{
+/* .resources{
   margin-left:0 auto;
   margin-right:0 auto;
-  display: flex;
+  display: flex; */
   /* justify-content:center; */
-  flex-flow: row;
+  /* flex-flow: row;
   flex-wrap: nowrap;
   height: 380px;
   width: 340px;
   overflow-x: auto;
   overflow-y: hidden;
   text-align: center;
-  padding: 15px;
+  padding: 15px; */
   /* align-self: center; */
-}
+/* } */
 
 
 

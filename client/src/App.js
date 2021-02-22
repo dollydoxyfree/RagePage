@@ -54,10 +54,13 @@ function App() {
       <div className="title-container">
         <header>
           <div className="ragePage">
+            
             <h1 id="title1">:RAGE☠︎PAGE:</h1>
           </div>
           <h3 id="title2">...What Really GRINDS My Gears...</h3>
         </header>
+
+
       </div>
 
       <div className="nav-div">
