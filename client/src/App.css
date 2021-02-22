@@ -18,7 +18,8 @@ nav{
   position: center;
   margin: 0 auto;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  justify-content: space-around;
   font-size: 15px;
   margin-top: 15px;
   /* margin-bottom: 15px; */
@@ -92,7 +93,9 @@ a{
 text-decoration: none;
 }
 
-
+nav a :hover{
+color: rgb(249, 0, 75);
+}
 
 .rel-div{
   margin: 0px;
