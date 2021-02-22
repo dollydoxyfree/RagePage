@@ -1,34 +1,16 @@
 *{
-  background-color: black;
+
   font-family: 'Reggae One', cursive;
 }
 
-
-.giphy{
-  width: 140px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  margin-left:  auto;
-  margin-right: auto;
-  margin-top: 20px;
-}
-
 .header-div{
-  padding: 0px;
-  height: 100px;
-  color: rgb(249, 0, 104);
-  /* position: fixed; */
+  background-color: black;
+  height: 150px;
 }
 
 header{
-  text-align: center;
-  margin-top: 5px;
-  /* font-family: 'Reggae One', cursive; */
-  /* display: flex; */
-  justify-content: flex-start;
+ text-align: right;
 }
-
 
 nav{
   display: flex;
@@ -41,6 +23,7 @@ nav{
   /* margin-bottom: 15px; */
   height: 30px;
   width: 300px;
+  flex-wrap: wrap;
 }
 
 .navcontent{
@@ -51,48 +34,64 @@ nav{
 
 .nav-div{
   margin-top: 2px;
+  display: grid;
+  grid-row: auto;
+  align-tracks: 1 / 2px;
 }
 
 
-.ragePage{
-  font-size: 20px;
-  padding: 0px;
-  margin: 0 auto;
-  font-stretch: extra-condensed;
-  width: 370px;
-  display: flex;
-  flex-wrap: nowrap;
- justify-content: center;
- margin-bottom: 2px;
+
+.title-container{
+  display: grid;
+  padding: 10px;
+  margin: 0px;
+  margin-top: 0px;
+  flex-flow: row;
+  justify-content: left;
+  color: rgb(249, 0, 75);
+  font-size: x-large;
+  background-color: black;
 }
 
 #title1{
-  margin: 0 auto;
+  margin-bottom: 3px;
 }
 
 #title2{
   padding: 0px;
-  margin: 0px;
+  margin-left: 10px;
   font-style: italic;
-  font-size: 7px;
+  font-size: 10px;
   font-stretch: ultra-expanded;
-  color: rgb(10, 128, 10);
-  display: flex;
-  flex-flow:column;
-  /* justify-content: center; */
-  flex-wrap: wrap;
-  height: 10px;
+  color: rgb(255, 81, 0);
 }
 
-.title-container{
+
+.road-rage-container,
+.relationships-container,
+.hospitality-container{
+
+  margin: 20px;
+  margin-top: 20px;
   display: flex;
-  padding: 10px;
-  margin: 40px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  flex-flow: row;
-  justify-content: center;
+  justify-content: space-between;
+  flex-flow: column;
+  height: 460px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
 }
+
+nav a,
+.road-rage-container a,
+.relationships-container a,
+.hospitality-container
+a{
+text-decoration: none;
+}
+
+
 
 .rel-div{
   margin: 0px;
@@ -124,34 +123,11 @@ nav{
 
 
 
-.road-rage-container,
-.relationships-container,
-.hospitality-container{
-
-  margin: 20px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  flex-flow: column;
-  height: 460px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  text-align: center;
-  padding: 20px;
-}
-
-nav a,
-.road-rage-container a,
-.relationships-container a,
-.hospitality-container
-a{
-text-decoration: none;
-}
 
 .section{
  margin-top: 60px;
   text-align: center;
-  color: rgb(10, 128, 10);
+  /* color: rgb(10, 128, 10); */
   
 }
 
@@ -169,7 +145,7 @@ button{
 }
 
 .input-container{
-  border: 1px solid rgb(170, 0, 249);
+  border: 1px solid rgb(249, 0, 75);
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -189,8 +165,9 @@ button{
 }
 
 form{
-  width: 80%;
-  /* border: 2px solid rgb(170, 0, 249); */
+  width: 300px;
+
+
   padding: 10px;
   align-content: center;
   color: grey;
@@ -201,15 +178,16 @@ textarea,
 input{
   width: 90%;
   height: 40px;
+  color: gray;
 }
 
 
-footer{
+/* footer{
   font-size: 10px;
   text-align: right;
   margin-right: 5px;
   margin-top: 5px;
-}
+} */
 /* .App {
   text-align: center;
 }
