@@ -51,54 +51,47 @@ function Form1(props) {
 
   return (
 
-    
 
 
 
-      
-      <form onSubmit={handleSubmit}>
-        <h4>VENT</h4>
-        <label>Title</label><br/>
-        <input value={title} onChange={(e) => setTitle(e.target.value)} />
-        <br />
-        <br />
-        <label>Situation </label><br/>
-        <textarea
-          value={situation}
-          onChange={(e) => setSituation(e.target.value)}
-        />
-        <br />
-        <br />
-        <label>I WISH I could of </label><br/>
-        <textarea
-          value={dreamReact}
-          onChange={(e) => setDreamReact(e.target.value)}
-        />
-        <br />
-        <br />
-        <label>Reality</label><br/>
-        <textarea value={reality} onChange={(e) => setReality(e.target.value)} />
-        <br />
-        <br />
-        <label>name or alias</label><br/>
-        <input
-          value={anonAuthor}
-          onChange={(e) => setAnonAuthor(e.target.value)}
-        />{" "}
-        <br />
-        <br />
+
+
+    <form onSubmit={handleSubmit}>
+      <h4>VENT</h4>
+      <label>Title</label><br />
+      <input value={title} onChange={(e) => setTitle(e.target.value)} />
+      <br />
+      <br />
+      <label>What GRINDS Your Gears</label><br />
+      <textarea
+        value={situation}
+        onChange={(e) => setSituation(e.target.value)}
+      />
+      <br />
+      <br />
+      <label>Your True Response</label><br />
+      <textarea value={reality} onChange={(e) => setReality(e.target.value)} />
+      <br />
+      <br />
+      <label>name or alias</label><br />
+      <input
+        value={anonAuthor}
+        onChange={(e) => setAnonAuthor(e.target.value)}
+      />
+      <br />
+
+
+
+      <div className='cancel-submit'>
         <button type="submit">RAGE</button>
+        <Link to="/relationships">
+          <h6 className='cancel'>cancel</h6>
+        </Link>
+      </div>
 
 
-        <div className='cancel'>
-      <Link to="/relationships">
-            <h6 className='cancel'>cancel</h6>
-          </Link>
-        </div>
-        
+    </form>
 
-        </form>
- 
   );
 }
 

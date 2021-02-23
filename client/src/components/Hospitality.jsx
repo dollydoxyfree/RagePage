@@ -14,14 +14,6 @@ function Hospitality(props) {
     anonAuthor,
   } = props.hospitality.fields;
 
-  // useEffect(() => {
-  //   const getRelationships = async () => {
-  //     const res = await axios.get(baseURL1, config);
-  //     setRelationships(res.data.records);
-  //     console.log(res.data.records)
-  //   };
-  //   getRelationships();
-  // }, [toggleFetch]);
 
   return (
     <Link to="/hospitality">

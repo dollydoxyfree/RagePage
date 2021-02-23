@@ -6,6 +6,8 @@ body{
  background-image: url(https://media.giphy.com/media/lRR3VWjUMXh3wbuo32/giphy.gif);
  background-size: cover;
  background-repeat: no;
+ margin: 0;
+ padding: 0;
 }
 
 .header-div{
@@ -15,6 +17,9 @@ body{
 
 header{
  text-align: right;
+ top: 0;
+ right: 0;
+ justify-content: stretch;
 }
 
 nav{
@@ -23,13 +28,10 @@ nav{
   position:relative;
   margin: 0 auto;
   justify-content: center;
-  /* justify-content: space-evenly;
-  justify-content: space-around; */
   font-size: 15px;
   margin-top: 15px;
-  /* margin-bottom: 15px; */
   height: 30px;
-  width: 300px;
+  width: 100%;
   flex-wrap: nowrap;
 }
 
@@ -41,7 +43,6 @@ h4.navcontent{
   margin: 7px;
   margin-top: 0px;
   margin-bottom: 0px;
-  /* align-content: center; */
 }
 
 
@@ -114,7 +115,47 @@ nav a :hover{
 }
 
 
+.about{
+  background-color:rgb(93, 93, 93);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+text-align: center;
+padding: 20px;
+  width: 80%;
+  display: flex; 
 
+  border: 0px;
+ 
+
+  flex-flow: column;
+  height: 460px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.about a{
+  text-decoration: none;
+}
+
+.details{
+  padding: 0;
+  color: rgb(117, 0, 0);
+  font-size: large;
+  text-decoration: none;
+}
+
+
+h6,
+h5{
+  color: black;
+}
+
+ul{
+  list-style: none;
+}
 
 .section{
  margin-top: 20px;
@@ -139,6 +180,13 @@ button{
 
 }
 
+
+.cancel-submit{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
 .input-container{
   border: 4px solid black;
 margin: 1px;
@@ -146,6 +194,7 @@ margin: 1px;
   padding: 5px;
   background-color: rgb(93, 93, 93);
   color: black;
+  width: 90%;
 }
 
 
@@ -158,14 +207,14 @@ margin: 1px;
  justify-items: stretch;
  margin-bottom: 10px;
  padding: 0px;
-}
+} 
 
 form{
   width: 500px;
   justify-content: stretch;
   background-color: rgba(93, 93, 93, 0.205);
-  /* padding: 10px; */
-  align-content: center;
+  padding: 10px; 
+   align-content: center;
   justify-content: space-evenly;
   text-align: center;
   color: rgb(249, 141, 0);
@@ -174,39 +223,62 @@ form{
 
 textarea,
 input{
-  width: 400px;
+  width: 300px;
   height: 40px;
   color: gray;
   background-color: black;
 }
 
-#footer{
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-height: 80px;
-background-color: black;
-text-align: center;
-color: rgb(255, 21, 0);
-  /* margin-bottom: 40px; */
-}
 
 
-@media screen and (max-width: 480px){
+
+@media all and (min-width: 480px) and (max-width: 767px){
 
   body{
-    background-image: url(https://media.giphy.com/media/5QMQdMrKAJznwY2q5k/giphy.gif);
+    background-color: rgb(117, 0, 0);
+    background-image: none;
+  }
+  nav{
+   width: 100%;
   }
 
   .nav-div{
-   width: 90%;
+display: flex;
+flex-wrap: wrap;
+flex-flow: column;
   }
 
   .title-container{
     width: 100%;
+    font-size: 40px;
+    position: inherit;
+    top: 0;
+
   }
   header{
+  text-align: left;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+   background-color: none;
+  }
+
+  .nav-content{
     width: 100%;
+ position: relative;
+ background-color: rgba(0, 0, 0, 0);
+ font-size: 10px;
+  }
+
+  .input-container{
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 479px) {
+  body{
+    background-image: url(https://media.giphy.com/media/l41lVUCbHnMswK0ec/giphy.gif);
+    font-size: 10px;
   }
 }

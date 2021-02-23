@@ -15,32 +15,25 @@ function Relationships(props) {
     anonAuthor,
   } = props.relationships.fields;
 
-  // useEffect(() => {
-  //   const getRelationships = async () => {
-  //     const res = await axios.get(baseURL1, config);
-  //     setRelationships(res.data.records);
-  //     console.log(res.data.records)
-  //   };
-  //   getRelationships();
-  // }, [toggleFetch]);
+
 
   return (
 
-  
-    
-    
 
-      <Link to="/relationships">
-        <div className='input-container'>
-          <h3>{title}</h3>
-          <h6>{situation}</h6>
-          <h4>{dreamReact}</h4>
-          <h6>{reality}</h6>
-          <h6>posted by {anonAuthor}</h6>
-        </div>
-      </Link>   
 
-  
+
+
+    <Link to="/relationships">
+      <div className='input-container'>
+        <h3>{title}</h3>
+        <h6>{situation}</h6>
+        <h4>{dreamReact}</h4>
+        <h6>{reality}</h6>
+        <h6>posted by {anonAuthor}</h6>
+      </div>
+    </Link>
+
+
   );
 }
 

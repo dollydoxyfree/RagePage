@@ -55,47 +55,41 @@ function Form3(props) {
     <Route path="/road-rage/new">
       <form onSubmit={handleSubmit}>
         <h4>VENT</h4>
-        <label>Title</label><br/>
+        <label>Title</label><br />
         <input value={title} onChange={(e) => setTitle(e.target.value)} />
         <br />
         <br />
-        <label>Situation </label><br/>
-        <textarea
-          value={situation}
-          onChange={(e) => setSituation(e.target.value)}
-        />
-        <br />
-        <br />
-        <label>I WISH I could of </label><br/>
+
+        <label>What GRINDS Your Gears</label><br />
         <textarea
           value={dreamReact}
           onChange={(e) => setDreamReact(e.target.value)}
         />
         <br />
         <br />
-        <label>Reality</label><br/>
+        <label>Your True Response</label><br />
         <textarea value={reality} onChange={(e) => setReality(e.target.value)} />
         <br />
         <br />
-        <label>name or alias</label><br/>
+        <label>name or alias</label><br />
         <input
           value={anonAuthor}
           onChange={(e) => setAnonAuthor(e.target.value)}
-        />{" "}
+        />
         <br />
-        <br />
-        <button type="submit">RAGE</button>
 
 
-        <div className='cancel'>
-      <Link to="/road-rage">
-      <h6 className='cancel'>cancel</h6>
+
+        <div className='cancel-submit'>
+          <button type="submit">RAGE</button>
+          <Link to="/road-rage">
+            <h6 className='cancel'>cancel</h6>
           </Link>
         </div>
-        
 
-        </form>
-      </Route>
+
+      </form>
+    </Route>
   );
 }
 

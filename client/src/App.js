@@ -12,7 +12,7 @@ import Form1 from "./components/Form1";
 import Form2 from "./components/Form2";
 import Form3 from "./components/Form3";
 import Handles from './components/Handles'
-import Footer from './components/Footer'
+
 
 function App() {
   const [relationships, setRelationships] = useState([]);
@@ -55,7 +55,7 @@ function App() {
       <div className="title-container">
         <header>
           <div className="ragePage">
-            
+
             <h1 id="title1">RAGE☠︎PAGE</h1>
           </div>
           <h3 id="title2">...What Really GRINDS My Gears...</h3>
@@ -68,12 +68,7 @@ function App() {
         <Nav />
       </div>
 
-      {/* <Route path="/" exact>
-        <div className="gearsGiph">
-          <br/>
-          <Home />
-      </div>
-      </Route> */}
+
 
       <Route path="/relationships" >
         <div className="section">
@@ -86,8 +81,8 @@ function App() {
           </Link>
         </div>
 
-        
-        <Route path="/relationships/new" exact> 
+
+        <Route path="/relationships/new" exact>
           <div className="form1">
             <Form1
               relationships={relationships}
@@ -97,17 +92,17 @@ function App() {
         </Route>
 
         <Route path='/relationships' exact>
-        <div className="relationships-container">
-          {relationships.map((relationships) => (
-            <Relationships relationships={relationships} />
-          ))}
+          <div className="relationships-container">
+            {relationships.map((relationships) => (
+              <Relationships relationships={relationships} />
+            ))}
           </div>
-          </Route>
+        </Route>
       </Route>
 
       <Route path="/hospitality">
         <div className="section">
-          {" "}
+
           <h1>Business</h1>
         </div>
 
@@ -124,17 +119,17 @@ function App() {
         </Route>
 
         <Route path='/hospitality' exact>
-        <div className="hospitality-container">
-          {hospitality.map((hospitality) => (
-            <Hospitality hospitality={hospitality} />
-          ))}
+          <div className="hospitality-container">
+            {hospitality.map((hospitality) => (
+              <Hospitality hospitality={hospitality} />
+            ))}
           </div>
-          </Route>
+        </Route>
       </Route>
 
       <Route path="/road-rage">
         <div className="section">
-          {" "}
+
           <h1>Road Rage</h1>
         </div>
 
@@ -148,24 +143,22 @@ function App() {
             <Form3 roadRage={roadRage} setToggleFetch={setToggleFetch} />
           </div>
         </Route>
-<Route path='/road-rage' exact>
-        <div className="road-rage-container">
-          {roadRage.map((roadRage) => (
-            <RoadRage roadRage={roadRage} />
-          ))}
+        <Route path='/road-rage' exact>
+          <div className="road-rage-container">
+            {roadRage.map((roadRage) => (
+              <RoadRage roadRage={roadRage} />
+            ))}
           </div>
-          </Route>
+        </Route>
       </Route>
-   
-
-
-     
-<div>
-    <Footer />
-    </div>
+      <Route path='/' exact>
+        <div className='about'>
+          <Home />
+        </div>
+      </Route>
     </div>
 
-    
+
   );
 }
 
