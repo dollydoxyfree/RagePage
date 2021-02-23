@@ -24,7 +24,7 @@ function App() {
     const getRelationships = async () => {
       const res = await axios.get(baseURL1, config);
       setRelationships(res.data.records);
-      console.log(res.data.records);
+      // console.log(res.data.records);
     };
     getRelationships();
   }, [toggleFetch]);
@@ -33,7 +33,7 @@ function App() {
     const getHospitality = async () => {
       const res = await axios.get(baseURL2, config);
       setHospitality(res.data.records);
-      console.log(res.data.records);
+      // console.log(res.data.records);
     };
     getHospitality();
   }, [toggleFetch]);
@@ -42,7 +42,7 @@ function App() {
     const getRoadRageData = async () => {
       const res = await axios.get(baseURL3, config);
       setRoadRage(res.data.records);
-      console.log(res.data.records);
+      // console.log(res.data.records);
     };
     getRoadRageData();
   }, [toggleFetch]);
